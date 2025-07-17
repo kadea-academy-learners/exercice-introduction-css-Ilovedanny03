@@ -19,9 +19,9 @@ header h1 {
     margin: 0;
 }
 
-header h3 {
-    font-size: 1.3em;
-    color: #777;
+header h2 {
+    font-size: 14px;
+    color: #161616;
     margin-top: 5px;
 }
 
@@ -44,6 +44,12 @@ figure {
     background: #fff;
     width: 100%;
 }
+figcaption{
+
+    font-size: 11px;
+    max-width: ;
+    
+}
 
 /* Citation sous image */
 blockquote {
@@ -53,7 +59,7 @@ blockquote {
     margin: 15px 0 30px 0;
 }
 
-/*la time lime du docteur*/
+/*la timeline du docteur*/
 .timeline{
 text-align: center;
 margin: auto;
@@ -62,9 +68,14 @@ margin: auto;
 }
 /* Paragraphe d’intro */
 main p {
-    font-weight: bold;
+
     margin-bottom: 10px;
 }
+.intro{
+    font-size: 14px;
+
+}
+
 
 /* Liste chronologique */
 ul {
@@ -82,11 +93,18 @@ ul {
 
 ul li {
     margin-bottom: 10px;
+    font-size: 11px;
+}
+
+.years{
+    font-weight: bold;
 }
 
 /*cititation*/
 .citation{
 padding: 0 30%;
+font-size: 11px;
+font-style: italic;
 
 }
 
@@ -99,7 +117,7 @@ footer {
 }
 
 footer p {
-    font-style: italic;
+   
     color: #444;
     margin-bottom: 10px;
 }
@@ -107,6 +125,7 @@ footer p {
  blockquote {
     text-align: left;
     font-style: italic;
+    font-size: 11px;
     color: #555;
     margin-top: 0;
 }
@@ -127,4 +146,6 @@ footer a:hover {
 
 .pied{
     text-align: center;
+    font-size: 14px;
+    font-weight: bold;
 }
