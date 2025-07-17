@@ -1,3 +1,151 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dedcdc;
+    color: #333;
+    line-height: 1.6;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* En-tête */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header h2 {
+    font-size: 14px;
+    color: #161616;
+    margin-top: 5px;
+}
+
+/* Image principale */
+main img {
+
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    padding-bottom: 20px;
+    border-radius: 4px;
+    
+}
+
+/*fond section image*/
+
+figure {
+    margin: 0;
+    text-align: center;
+    background: #fff;
+    width: 100%;
+}
+figcaption{
+
+    font-size: 11px;
+    max-width: ;
+    
+}
+
+/* Citation sous image */
+blockquote {
+    font-style: italic;
+    color: #555;
+    text-align: center;
+    margin: 15px 0 30px 0;
+}
+
+/*la timeline du docteur*/
+.timeline{
+text-align: center;
+margin: auto;
 
 
+}
+/* Paragraphe d’intro */
+main p {
 
+    margin-bottom: 10px;
+}
+.intro{
+    font-size: 14px;
+
+}
+
+
+/* Liste chronologique */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+
+.list{
+
+    text-align: left;
+    padding: 0 30%;
+
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 11px;
+}
+
+.years{
+    font-weight: bold;
+}
+
+/*cititation*/
+.citation{
+padding: 0 30%;
+font-size: 11px;
+font-style: italic;
+
+}
+
+/* Pied de page */
+footer {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    font-size: 0.95em;
+    width: 100%;
+}
+
+footer p {
+   
+    color: #444;
+    margin-bottom: 10px;
+}
+
+ blockquote {
+    text-align: left;
+    font-style: italic;
+    font-size: 11px;
+    color: #555;
+    margin-top: 0;
+}
+
+footer h5 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.pied{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
