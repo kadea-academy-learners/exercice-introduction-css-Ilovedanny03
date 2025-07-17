@@ -1,3 +1,130 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dedcdc;
+    color: #333;
+    line-height: 1.6;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* En-tête */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header h3 {
+    font-size: 1.3em;
+    color: #777;
+    margin-top: 5px;
+}
+
+/* Image principale */
+main img {
+
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    padding-bottom: 20px;
+    border-radius: 4px;
+    
+}
+
+/*fond section image*/
+
+figure {
+    margin: 0;
+    text-align: center;
+    background: #fff;
+    width: 100%;
+}
+
+/* Citation sous image */
+blockquote {
+    font-style: italic;
+    color: #555;
+    text-align: center;
+    margin: 15px 0 30px 0;
+}
+
+/*la time lime du docteur*/
+.timeline{
+text-align: center;
+margin: auto;
 
 
+}
+/* Paragraphe d’intro */
+main p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
 
+/* Liste chronologique */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+
+.list{
+
+    text-align: left;
+    padding: 0 30%;
+
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/*cititation*/
+.citation{
+padding: 0 30%;
+
+}
+
+/* Pied de page */
+footer {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    font-size: 0.95em;
+    width: 100%;
+}
+
+footer p {
+    font-style: italic;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+ blockquote {
+    text-align: left;
+    font-style: italic;
+    color: #555;
+    margin-top: 0;
+}
+
+footer h5 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.pied{
+    text-align: center;
+}
